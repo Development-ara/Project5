@@ -59,3 +59,27 @@ button{
     background-color: var(--primary-color);
     border-radius: 2rem;
 }
+@media screen and (max-width: 600px)
+{
+    body{
+        background-image: url(/images/back1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .navigation .nav-mid{
+        text-align: center;
+        margin: 0.6rem 1rem;
+        position: absolute;
+        top: 53%;
+        left: -15%;
+    }
+    button{
+        position: absolute;
+        top: 62%;
+        left:35%;
+        padding: 0.5rem;
+        border: none;
+        background-color: var(--primary-color);
+        border-radius: 2rem;
+    }
+}
